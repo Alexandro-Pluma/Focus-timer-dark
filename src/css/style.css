@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-img: #cdcdd3;
+}
+
+body {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.page {
+
+    margin: auto;
+    width: 81.7rem;
+}
+
+.timer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding-top: 10rem;
+
+}
+
+.cards {
+    position: relative;
+}
+
+input {
+    position: absolute;
+    bottom: 2.4rem;
+    left: 2.4rem;
+}
+
+[type="range"] {
+    appearance: none;
+    width: 9rem;
+    height: .4rem;
+    border-radius: 5px;
+}
+
+[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.time-span {
+    position: relative;
+    border-radius: 2.4rem;
+}
+
+
+.time-span span {
+    font-weight: 500;
+    font-size: 12.7rem;
+    line-height: 30rem;
+}
+
+#set {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 4.8rem;
+}
+
+.play {
+    display: flex;
+    justify-content: right;
+    gap: 3rem;
+}
+
+.play img {
+    height: 4.8rem;
+}
+
+.model-theme {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    width: 31rem;
+}
+
+.model-theme img {
+    background: var(--bg-img);
+    border-radius: 2.4rem;
+}
+
+.model-theme img.dark{
+    background: #02799d80;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+img {
+    cursor: pointer;
+}
+
+#sol, #lua {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+

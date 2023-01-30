@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/1516002559_focus-timer.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/app.js" defer></script>
+    <title>Focus timer</title>
+</head>
+<body>
+    <img src="./src/img/sol.svg" alt="mudar cor de fundo " id="sol">
+    <img src="./src/img/lua.svg" alt="" id="lua">
+    <div class="page">
+    <div class="timer">
+        <div class="time-span">
+            <img src="./src/img/play/set.svg" alt="" id="set">
+            <span class="minutes">02</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+            <audio src="./src/sons/audios_kichen-timer.mp3" id="timer"></audio>
+            <div class="play">
+                <img src="./src/img/play/play.svg" alt="" id="play">
+                <audio src="./src/sons/audios_button-press.wav" id="som-play"></audio>
+                <img src="./src/img/play/stop.svg" alt="" id="stop">
+                <img src="./src/img/play/increase.svg" alt="" id="increase">
+                <img src="./src/img/play/decreases.svg" alt="" id="decreases">
+            </div>
+        </div>
+        <div class="model-theme">
+            <div class="card">
+                <div class="cards">
+                    <img src="./src/img/floresta.svg" alt="" id="floresta">
+                    <input type="range" name="floresta" id="vol-floresta" min="0" max="100" step="1">
+                    <audio src="./src/sons/Floresta.wav" id="som-flore"></audio>
+                </div>
+
+
+                <div class="cards">
+                    <img src="./src/img/chuva.svg" alt="" id="chuva">
+                    <input type="range" name="chuva" id="vol-chuva" min="0" max="100" step="1">
+                    <audio src="./src/sons/Chuva.wav" id="som-chuva"></audio>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cards">
+                    <img src="./src/img/cafeteria.svg" alt="" id="cafeteria">
+                    <input type="range" name="cafeteria" id="vol-cafeteria" min="0" max="100" step="1">
+                    <audio src="./src/sons/Cafeteria.wav" id="som-cafe"></audio>
+                </div>
+
+                <div class="cards">
+                    <img src="./src/img/laleira.svg" alt=""  id="laleira">
+                    <input type="range" name="laleira" id="vol-laleira" min="0" max="100" step="1">
+                    <audio  src="./src/sons/Lareira.wav" id="som-lareira"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+</body>
+</html>
